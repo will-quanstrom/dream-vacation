@@ -1,19 +1,29 @@
 .jumbotron {
   text-align: center;
-  background-color: skyblue;
+  background-color: #c9deff;
 }
 
 blockquote {
-  float: left;
-  margin-top: 200px;
+
 }
 
-.float-pics {
-  float: left;
-  width: 60%;
-  margin-bottom: 62px;
+img {
+
 }
 
-.float-pics1 {
-  float: right;
+p {
+  padding: 5%;
+}
+
+/* .col-md-4 {
+  padding-bottom: 5%;
+} */
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
