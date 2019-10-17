@@ -1,0 +1,19 @@
+.jumbotron {
+  text-align: center;
+  background-color: skyblue;
+}
+
+blockquote {
+  float: left;
+  margin-top: 200px;
+}
+
+.float-pics {
+  float: left;
+  width: 60%;
+  margin-bottom: 62px;
+}
+
+.float-pics1 {
+  float: right;
+}
